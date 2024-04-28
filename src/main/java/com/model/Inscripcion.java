@@ -17,13 +17,6 @@ public class Inscripcion {
     public Inscripcion() {
     }
 
-    public Inscripcion(Estudiante estudiante, Curso curso) {
-        this.estudiante = estudiante;
-        this.curso = curso;
-    }
-
-    public Inscripcion(ControladorEstudiante estudiante, Curso curso) {
-    }
 
     /**
      * @param estudiante

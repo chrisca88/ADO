@@ -27,9 +27,6 @@ public class Carrera {
         materias.add(materia);
 
     }
-    public List<Materia> obtenerMaterias() {
-        return materias;
-    }
 
     @Override
     public String toString() {

@@ -2,7 +2,7 @@ package main.java.com.model;
 
 import java.util.*;
 
-public class Docente {
+public class    Docente {
 
     private String nombre;
     private String apellido;
@@ -28,11 +28,6 @@ public class Docente {
 
     public List<Curso> getCursosAsignados() {
        return cursosAsignados;
-    }
-
-
-    public void verCursosAsignados() {
-        // TODO implement here
     }
 
     /**

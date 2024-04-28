@@ -21,7 +21,7 @@ public class PDF extends Reporte {
      * @param cursosAsignados
      */
     public void imprimirReporte(List cursosAsignados) {
-        System.out.println(cursosAsignados);
+        System.out.println("Listado de los cursos asignados: "+cursosAsignados);
     }
 
 }

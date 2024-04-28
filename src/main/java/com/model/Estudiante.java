@@ -13,14 +13,6 @@ public class Estudiante {
     private List<Curso> cursosInscriptos;
     private List<Materia> materiasAprobadas;
 
-    public Estudiante(String nombre, String apellido, String dni, String legajo, Curso curso) {
-        this.nombre = nombre;
-        this.apellido = apellido;
-        this.dni = dni;
-        this.legajo = legajo;
-        this.cursosInscriptos = new ArrayList<>();
-        cursosInscriptos.add(curso);
-    }
 
     public Estudiante(String nombre, String apellido, String dni, String legajo, Carrera carrera) {
         this.nombre = nombre;
@@ -32,20 +24,7 @@ public class Estudiante {
         this.materiasAprobadas = new ArrayList<>();
     }
 
-    public String getNombre() { return nombre; }
-    public String getApellido() {
-        return apellido;
-    }
-    public String getDni() {
-        return dni;
-    }
-    public String getLegajo() { return legajo; }
     public Carrera getCarrera() {return carrera;}
-
-
-    public void setCarrera(Carrera carrera) {
-        this.carrera = carrera;
-    }
 
     public List<Curso> getCursosInscriptos() {
         return cursosInscriptos;

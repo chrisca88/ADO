@@ -19,7 +19,6 @@ public class Cuota {
         this.monto = monto;
     }
 
-
     @Override
     public String toString() {
         return

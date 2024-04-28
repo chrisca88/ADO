@@ -2,8 +2,6 @@ package main.java.com.controllers;
 
 import main.java.com.model.Docente;
 
-
-
 public class ControladorDocente {
 
     private static ControladorDocente instancia;

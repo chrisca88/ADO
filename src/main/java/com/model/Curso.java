@@ -30,10 +30,7 @@ public class Curso {
         DateTimeFormatter formatoIso = DateTimeFormatter.ISO_LOCAL_DATE;
         this.fecha = LocalDate.parse(fechaHoy.format(formatoIso));
 
-
-
     }
-
 
     public Materia getMateria() {
         return materia;
@@ -43,15 +40,6 @@ public class Curso {
         return horario;
     }
 
-    public List<Docente> getDocenteAsignado() {
-        return docenteAsignado;
-    }
-
-    public void agregarEstudiante(Estudiante estudiante)
-    {
-        estudiantesInscriptos.add(estudiante);
-
-    }
     public void agregarDocente(Docente docente){
         docenteAsignado.add(docente);
     }

@@ -5,8 +5,6 @@ import main.java.com.model.Curso;
 import main.java.com.model.Materia;
 
 
-
-
 public class ControladorCurso {
 
     /**
@@ -17,13 +15,13 @@ public class ControladorCurso {
 
 
     /**
-     * @param Aula 
+     * @param numero
+     * @param aula
      * @param horario
-     * @param Materia
+     * @param materia
      */
-    public Curso crearCurso(int numero,Aula Aula, String horario, Materia Materia) {
-        Curso curso = new Curso(numero,Aula,horario,Materia);
-        return curso;
+    public Curso crearCurso(int numero ,Aula aula, String horario, Materia materia) {
+        return new Curso(numero,aula,horario,materia);
     }
 
 
